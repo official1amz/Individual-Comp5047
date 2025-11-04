@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_Gi0wELXBEfCYJrK7Ypaadw" name="Task 4a Architectural design">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_GluTELXBEfCYJrK7Ypaadw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Component" xmi:id="_GlzZULXGEfCYJrK7Ypaadw" name="Student Union Management System ">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_SrEacLgVEfCMA718VZPyAw" name="Port6" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TwQg4LgVEfCMA718VZPyAw" name="Port7" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_WlAgcLgVEfCMA718VZPyAw" name="Port8" aggregation="composite"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_FDW5gLgTEfCMA718VZPyAw" name="Union Event Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_GKYzALgTEfCMA718VZPyAw" name="Promotion Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_HdTzcLgTEfCMA718VZPyAw" name="Membership Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_JLLqgLgTEfCMA718VZPyAw" name="Payment/Ticket Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_JtvlALgTEfCMA718VZPyAw" name="USU Connector (API FACADE)"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_pC0AELXGEfCYJrK7Ypaadw" name="USU Cloud Platform">
+      <packagedElement xmi:type="uml:Component" xmi:id="_yj_JQLgUEfCMA718VZPyAw" name="Authentication Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_y5b00LgUEfCMA718VZPyAw" name="Event Databse Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_zJHPkLgUEfCMA718VZPyAw" name="Notification Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_zYSUALgUEfCMA718VZPyAw" name="Media Storage Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_znnJcLgUEfCMA718VZPyAw" name="Payment Gateway Service"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_B_9vQLXJEfC_8MHMhRmbjw" name="Union Officer Web App (GUI)">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_cYKx4LgVEfCMA718VZPyAw" name="Event management" visibility="public" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_xPQ8kLgVEfCMA718VZPyAw">
+          <body>Event management</body>
+        </ownedComment>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_upPgELgWEfCMA718VZPyAw" client="_cYKx4LgVEfCMA718VZPyAw" supplier="_TwQg4LgVEfCMA718VZPyAw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_SBGa8LgWEfCMA718VZPyAw" name="menu"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vGCM4LZtEfCL4PYKCEKaZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vGHscLZtEfCL4PYKCEKaZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_xPT_4LgVEfCMA718VZPyAw" base_Comment="_xPQ8kLgVEfCMA718VZPyAw" language="org.eclipse.papyrus.uml.textedit.port.xtext.UmlPort"/>
+</xmi:XMI>
