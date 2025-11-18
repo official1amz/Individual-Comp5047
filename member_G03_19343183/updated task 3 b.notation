@@ -495,9 +495,9 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Sp9KkbmeEfCP2sRG3aNM1Q"/>
     <element xmi:type="uml:ControlFlow" href="updated%20task%203%20b.uml#_Spt6ALmeEfCP2sRG3aNM1Q"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Sp9KkrmeEfCP2sRG3aNM1Q" points="[740, 140, -643984, -643984]$[740, 180, -643984, -643984]$[580, 180, -643984, -643984]$[580, 200, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sqf9ILmeEfCP2sRG3aNM1Q" id="(0.1590909090909091,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sqf9IbmeEfCP2sRG3aNM1Q" id="(0.84375,0.0)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Sp9KkrmeEfCP2sRG3aNM1Q" points="[736, 140, -643984, -643984]$[736, 180, -643984, -643984]$[580, 180, -643984, -643984]$[595, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sqf9ILmeEfCP2sRG3aNM1Q" id="(0.16363636363636364,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Sqf9IbmeEfCP2sRG3aNM1Q" id="(0.90625,0.0)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_YFF9kLmeEfCP2sRG3aNM1Q" type="ControlFlow_Edge" source="_MnXMcLmSEfCP2sRG3aNM1Q" target="_MTdHELmUEfCP2sRG3aNM1Q">
     <children xmi:type="notation:DecorationNode" xmi:id="_YFGkoLmeEfCP2sRG3aNM1Q" type="ControlFlow_NameLabel">
@@ -822,8 +822,8 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_oP9yQbm1EfCP2sRG3aNM1Q"/>
     <element xmi:type="uml:ControlFlow" href="updated%20task%203%20b.uml#_oPt6oLm1EfCP2sRG3aNM1Q"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oP9yQrm1EfCP2sRG3aNM1Q" points="[362, 380, -643984, -643984]$[361, 440, -643984, -643984]$[296, 440, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oP9yQrm1EfCP2sRG3aNM1Q" points="[357, 380, -643984, -643984]$[356, 440, -643984, -643984]$[292, 440, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oQdhgLm1EfCP2sRG3aNM1Q" id="(0.8,0.6666666666666666)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oQdhgbm1EfCP2sRG3aNM1Q" id="(0.95,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oQdhgbm1EfCP2sRG3aNM1Q" id="(0.9555555555555556,0.0)"/>
   </edges>
 </notation:Diagram>
