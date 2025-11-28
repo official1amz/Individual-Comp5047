@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_T4Rr0KU6EfCBl-PgXtDPpw" name="StudentUnionModel">
   <ownedComment xmi:type="uml:Comment" xmi:id="_VGeyEKU_EfCBl-PgXtDPpw">
-    <body>Scope = Union Officers’ web interface. Diagram maps to FR-UO-5.</body>
+    <body>Scope = Union Officers’ web interface. Diagram maps to FR-UO-5</body>
   </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_T8RbAKU6EfCBl-PgXtDPpw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
