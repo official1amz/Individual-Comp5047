@@ -5,10 +5,11 @@
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
     <packagedElement xmi:type="uml:Component" xmi:id="_GlzZULXGEfCYJrK7Ypaadw" name="Union Officer Interface" visibility="public" isIndirectlyInstantiated="false">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_WA-40MS3EfCQ--zyfAND_w" name="Port5" aggregation="composite"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_RDruQLp4EfCW74tX133K2g" name="Union Officcer Web Portal">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Si62gMS3EfCQ--zyfAND_w" name="" aggregation="composite"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_FQ-tgLp-EfCW74tX133K2g" client="_RDruQLp4EfCW74tX133K2g" supplier="_So2VQLp4EfCW74tX133K2g"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_KUx-kLp-EfCW74tX133K2g" client="_RDruQLp4EfCW74tX133K2g" supplier="_TRg3wLp4EfCW74tX133K2g"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_RvFM8Lp-EfCW74tX133K2g" client="_RDruQLp4EfCW74tX133K2g" supplier="_RupIELp-EfCW74tX133K2g"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_j8QN4L41EfCjl-6pMJcybw" client="_RDruQLp4EfCW74tX133K2g" supplier="_R5_rMLp4EfCW74tX133K2g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_R5_rMLp4EfCW74tX133K2g" name="Event Management UI"/>
@@ -16,6 +17,7 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_TRg3wLp4EfCW74tX133K2g" name="Registration UI"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_pC0AELXGEfCYJrK7Ypaadw" name="USU Cloud Platform">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Z-w9AMS3EfCQ--zyfAND_w" name="Port11" aggregation="composite"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_i_JKELp_EfCW74tX133K2g" name="InterfaceEventMgmt">
         <generalization xmi:type="uml:Generalization" xmi:id="_wehgULp_EfCW74tX133K2g" general="_dDAVELp6EfCW74tX133K2g"/>
       </nestedClassifier>
@@ -36,14 +38,18 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_e0aBQLp6EfCW74tX133K2g" name="&lt;&lt;datastore>>EventDatabase"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_Xnix8Lp6EfCW74tX133K2g" name="API Gateway">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_dQqLkMS3EfCQ--zyfAND_w" name="Port2" aggregation="composite"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_rhp9sLp_EfCW74tX133K2g" client="_Xnix8Lp6EfCW74tX133K2g" supplier="_i_JKELp_EfCW74tX133K2g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_RupIELp-EfCW74tX133K2g" name="InterfaceUOAPIs"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_t37G8Lp-EfCW74tX133K2g" client="_RupIELp-EfCW74tX133K2g" supplier="_Xnix8Lp6EfCW74tX133K2g"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_h4O9IL40EfCjl-6pMJcybw" client="_Ql6gwL40EfCjl-6pMJcybw" supplier="_do2NELp6EfCW74tX133K2g"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_xphroL40EfCjl-6pMJcybw" client="_pfu6AL40EfCjl-6pMJcybw" supplier="_eHJSoLp6EfCW74tX133K2g"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_-EYCwL40EfCjl-6pMJcybw" client="_2PrXYL40EfCjl-6pMJcybw" supplier="_edIwwLp6EfCW74tX133K2g"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_HqPw0L41EfCjl-6pMJcybw" client="_CHbogL41EfCjl-6pMJcybw" supplier="_e0aBQLp6EfCW74tX133K2g"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nL9XEMS3EfCQ--zyfAND_w" client="_Si62gMS3EfCQ--zyfAND_w" supplier="_WA-40MS3EfCQ--zyfAND_w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ou04AMS3EfCQ--zyfAND_w" client="_WA-40MS3EfCQ--zyfAND_w" supplier="_RupIELp-EfCW74tX133K2g"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_pyQD4MS3EfCQ--zyfAND_w" client="_RupIELp-EfCW74tX133K2g" supplier="_Z-w9AMS3EfCQ--zyfAND_w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_wXqRoMS3EfCQ--zyfAND_w" client="_Z-w9AMS3EfCQ--zyfAND_w" supplier="_dQqLkMS3EfCQ--zyfAND_w"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vGCM4LZtEfCL4PYKCEKaZw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vGHscLZtEfCL4PYKCEKaZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
